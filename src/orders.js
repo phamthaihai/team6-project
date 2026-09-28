@@ -5,7 +5,7 @@ function addOrder(order) {
 }
 
 function listOrders() {
-  return ORDERS;
+  return [...ORDERS];
 }
 
 module.exports = { addOrder, listOrders };
